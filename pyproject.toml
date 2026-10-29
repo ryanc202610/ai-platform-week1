@@ -1,0 +1,20 @@
+[project]
+name = "ai-platform-week1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Leo", email = "lileo1357924680@gmail.com" }
+]
+requires-python = ">=3.15"
+dependencies = [
+    "openai>=3.41.0",
+    "python-dotenv>=1.2.4",
+]
+
+[project.scripts]
+ai-platform-week1 = "ai_platform_week1:main"
+
+[build-system]
+requires = ["uv_build>=0.13.5,<0.14.0"]
+build-backend = "uv_build"
